@@ -29,6 +29,7 @@ class GlobalTestOpenAcademyCourse(TransactionCase):
             ' constraint "openacademy_course_name_description_check"'):
             self.create_course('test','test', None)
 
+    # Mute logger
     @mute_logger('odoo.sql_db')
     def test_20_two_courses_same_name(self):
         '''
