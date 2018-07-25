@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo import http
+from odoo import http  # noqa  # pylint: disable=unused-import
 
 # class Openacademy(http.Controller):
 #     @http.route('/openacademy/openacademy/', auth='public')
