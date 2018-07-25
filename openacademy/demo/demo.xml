@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record model="openacademy.course" id="course0">
+          <field name="name">Are women humans?</field>
+          <field name="description">Are women humans??</field>
+        </record>
+        <record model="openacademy.course" id="course1">
+          <field name="name">The art of dealing with womens</field>
+          <field name="description">The art of dealing with womenss</field>
+        </record>
+        <record model="openacademy.course" id="course2">
+          <field name="name">I have no idea what I'm doing</field>
+          <field name="description">I have no idea what I'm doingg</field>
+        </record>
+    </data>
+</odoo>
